@@ -6,6 +6,10 @@
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+    </properties>
 
     <artifactId>pet-clinic-web</artifactId>
     <dependencies>
@@ -39,10 +43,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-    </properties>
 
 </project>
