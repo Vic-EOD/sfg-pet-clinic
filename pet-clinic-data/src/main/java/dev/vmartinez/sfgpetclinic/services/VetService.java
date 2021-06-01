@@ -1,15 +1,7 @@
 package dev.vmartinez.sfgpetclinic.services;
 
 import dev.vmartinez.sfgpetclinic.model.Vet;
+import org.springframework.data.repository.CrudRepository;
 
-import java.util.Set;
-
-public interface VetService {
-    Vet findByLastName(String lastName);
-
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
+public interface VetService extends CrudRepository<Vet, Long> {
 }
